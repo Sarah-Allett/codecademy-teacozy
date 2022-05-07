@@ -157,6 +157,7 @@ position: absolute;
     position: relative;
     top: -300px;
     opacity: 1;
+    left: 500px;
   }
 
   #flex {
