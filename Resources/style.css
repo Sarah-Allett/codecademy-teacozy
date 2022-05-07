@@ -9,6 +9,8 @@ body {
 
 }
 
+/*------Nav -----*/
+
 nav {
     height: 69px;
     border-bottom: 1px solid seashell;
@@ -44,8 +46,9 @@ nav li {
     text-align: right;
     margin-right: 15px;
     float: right;
-
 }
+
+/*-------------Banner----------------*/
 
 .banner  {
     position: relative;
@@ -68,6 +71,9 @@ nav li {
     width:1200px;
     opacity: 1;
 }
+
+/*-------------Featured----------------*/
+
 
 #featured {
     background-color: #000000;
@@ -104,7 +110,9 @@ nav li {
     padding: 0;
 }
 
-#locations {
+/*-------------Locations----------------*/
+
+/* /* #locations {
     display: flex;
     position: relative;
     top: 150px;
@@ -166,18 +174,61 @@ position: absolute;
 
   .box h3,
   .box p {
-      text-align: center;
-  }
+      text-align: center; 
+  } */
+
+#locations {
+    min-height: 500px;
+    max-width: 1200px;
+    text-align: center;
+    background-image: url("./img-locations-background.webp");
+    background-size: cover;
+    margin: 0 auto;
+    padding: 60px;
+    position: relative;
+    top: 150px;
+}
+
+.locations-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.locations-item {
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 15px;
+    background-color: #000000;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between; 
+    opacity: 1;
+    position: relative;
+    top: 150px;
+}
+
+.locations-header {
+   position: relative;
+   left: 400px;
+   top: -50px;
+}
+
+  /*-------------Footer----------------*/
 
   .bottom {
       position: relative;
-      top: -130px;
+      top: 150px;
       text-align: center;
   }
 
   .footer
   {
     position: relative;
-    top: -50px;
+    top: 250px;
     margin-left: 20px;
   }
